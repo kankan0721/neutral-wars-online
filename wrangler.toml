@@ -9,3 +9,7 @@ class_name = "Room"
 [[migrations]]
 tag = "v1"
 new_sqlite_classes = ["Room"]
+
+# ゲーム本体(public/index.html)をこのWorkerから配信する。/room/... などファイルが無いパスはworker.jsへ
+[assets]
+directory = "./public"
